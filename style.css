@@ -32,6 +32,10 @@ body {
 
 }
 
+dd {
+    padding: 5px 0px;
+}
+
 #arus-logo img {
     float: right;
     width: 25%;
@@ -91,4 +95,23 @@ th:hover{
     border-collapse: separate;
     padding-top: 10px;
 
+}
+.image img {
+    height: 30px;
+    padding: 0px 10px;
+}
+.media-links{
+    float: right;
+    margin-top: 24%;
+    margin-right: -25%;
+}
+.media-links li:hover{
+    opacity: .6;
+}
+.media-links li{
+    list-style: none;
+    display:inline;
+}
+.media-links-emai{
+    height: px;
 }
