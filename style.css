@@ -1,0 +1,94 @@
+body {
+    background-color: rgba(202, 255, 218, 0.514);
+    border: 1.5px;
+    background-image: url(https://images.ctfassets.net/pdf29us7flmy/3WyIJe69O5yOumjv5Gv01I/f63e9b05be4763bce6561f7555bdbbcf/B7023-How-to-Build-my-Resume-Social.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+}
+
+.resume-box {
+    height: auto;
+    width: 55%;
+    background-color: rgba(255, 255, 255, 0.493);
+    border-radius: 30px;
+    box-shadow: 6px 6px 6px rgba(80, 78, 78, 0.316);
+}
+
+.my-image img {
+    float: left;
+    width: 20%;
+    border-style: solid;
+    border-color: aliceblue;
+    border-radius: 15px;
+    margin: 20px 0px 0px 40px;
+    box-shadow: 6px 6px 6px rgba(80, 78, 78, 0.316);
+
+}
+
+#arus-logo img {
+    float: right;
+    width: 25%;
+    margin: 30px 50px 0px 0px;
+    cursor: pointer;
+}
+#arus-logo img:hover{
+    opacity: .6;
+}
+
+#whole-content {
+    clear: both;
+    margin: 0px 40px 0px 40px;
+    padding: 20px 0px;
+    text-align: justify;
+}
+
+::selection {
+    color: hsl(269, 37%, 39%);
+    background-color: #c895fb;
+}
+
+#achivements {
+    margin-left: 40px;
+}
+
+table,
+td,
+th {
+    padding: 10px;
+    text-align: center;
+    color: hsl(269, 37%, 39%);
+}
+
+td {
+    background-color: #c895fb;
+    border-style: solid;
+    border-color: #b285e3;
+    border-radius: 20px;
+    cursor: pointer;
+}
+td:hover{
+    background-color: #b285e3;
+}
+
+th {
+    background-color: #b675fb;
+    border-style: solid;
+    border-color: #8766ab;
+    border-radius: 20px;
+    cursor: pointer;
+}
+th:hover{
+    background-color: #8766ab;
+}
+#table {
+    border-collapse: separate;
+    padding-top: 10px;
+
+}
